@@ -1,0 +1,34 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "squiddy.png"
+    },
+    "Heron":
+    {
+    },
+    "RigidBody":
+    {
+      "gravity": 1000,
+      "friction": 0.95
+    },
+    "TileCollider":
+    {
+      "width": 32,
+      "height": 80
+    },
+    "Light":
+    {
+      "radius": 120,
+      "numRays": 50,
+      "arc": 0.5,
+      "offsetY": 0
+    },
+    "Animatable":
+    {
+    }
+  },
+
+  "thumb": "heron.png"
+}

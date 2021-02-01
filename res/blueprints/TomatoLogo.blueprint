@@ -1,0 +1,10 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "core/tomato-logo.png",
+      "zdepth": 5
+    }
+  }
+}

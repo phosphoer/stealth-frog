@@ -1,0 +1,20 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "note.png"
+    },
+    "DialogTrigger":
+    {
+      "dialogText": "Default dialog"
+    },
+    "TileCollider":
+    {
+      "width": 13,
+      "height": 12
+    }
+  },
+
+  "thumb": "note.png"
+}

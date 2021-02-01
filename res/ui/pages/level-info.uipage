@@ -1,0 +1,11 @@
+{
+  "type": "UIWindow",
+  "id": "LevelInfo",
+  "children":
+  [
+    {"type": "UIText", "class": "LevelInfoText", "id": "LevelInfoName", "text": "0"},
+    {"type": "UIText", "class": "LevelInfoSubText", "id": "LevelInfoFrogs", "text": "Frogs: 0"},
+    {"type": "UIText", "class": "LevelInfoSubText", "id": "LevelInfoFireflies", "text": "Fireflies: 0"},
+    {"type": "UIText", "class": "LevelInfoSubText", "id": "LevelInfoRequired", "text": ""}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "main-menu.png",
+      "zdepth": 5
+    }
+  }
+}

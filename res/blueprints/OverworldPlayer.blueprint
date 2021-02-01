@@ -1,0 +1,23 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "player.png",
+      "zdepth": 5,
+      "animations":
+      {
+        "Idle": "frog-idle-right.json"
+      },
+      "currentAnimation": "Idle"
+    },
+    "Animatable":
+    {
+    },
+    "OverworldPlayer":
+    {
+    }
+  },
+
+  "thumb": "player-thumb.png"
+}

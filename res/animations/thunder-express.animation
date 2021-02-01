@@ -1,0 +1,23 @@
+{
+  "imageURL": "thunderexpress.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames":
+  [
+    {"frame": 0, "duration": 0.08},
+    {"frame": 1, "duration": 0.08},
+    {"frame": 2, "duration": 0.08},
+    {"frame": 3, "duration": 0.08},
+    {"frame": 4, "duration": 0.08},
+    {"frame": 5, "duration": 0.08},
+    {"frame": 6, "duration": 0.08},
+    {"frame": 7, "duration": 0.08},
+    {"frame": 13, "duration": 0.5},
+    {"frame": 8, "duration": 0.14},
+    {"frame": 9, "duration": 0.14},
+    {"frame": 10, "duration": 0.14},
+    {"frame": 11, "duration": 0.14},
+    {"frame": 12, "duration": 0.14},
+    {"frame": 13, "duration": 1}
+  ]
+}

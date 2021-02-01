@@ -1,0 +1,50 @@
+{
+  "List":
+  [
+    {
+      "name" : "Frog Get",
+      "fileName" : "frog-save.wav"
+    },
+    {
+      "name" : "Jump1",
+      "fileName" : "jump-1.wav"
+    },
+    {
+      "name" : "Jump2",
+      "fileName" : "jump-2.wav"
+    },
+    {
+      "name" : "Splash",
+      "fileName" : "splash.wav"
+    },
+    {
+      "name" : "Swim",
+      "fileName" : "swim.wav"
+    },
+    {
+      "name" : "Firefly Get",
+      "fileName" : "firefly-get.wav"
+    },
+    {
+      "name" : "Title",
+      "fileName" : "title.mp3"
+    },
+    {
+      "name" : "Track1",
+      "fileName" : "sneakRUIN.ogg"
+    },
+    {
+      "name" : "Track2",
+      "fileName" : "levelPPanic.ogg"
+    },
+    {
+      "name" : "Track3",
+      "fileName" : "titleRUIN.ogg"
+    }
+  ],
+
+  "Banks":
+  {
+    
+  }
+}

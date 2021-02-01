@@ -1,0 +1,34 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "firefly.png"
+    },
+    "Firefly":
+    {
+    },
+    "TileCollider":
+    {
+      "width": 10,
+      "height": 10
+    },
+    "Light":
+    {
+      "radius": 40,
+      "numRays": 36
+    },
+    "AudioEmitter":
+    {
+      "soundBank":
+      {
+        "Pickup":
+        {
+          "sounds": ["Firefly Get"]
+        }
+      }
+    }
+  },
+
+  "thumb": "firefly.png"
+}

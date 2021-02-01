@@ -1,0 +1,18 @@
+{
+  "type": "UIWindow",
+  "class": "Dialog",
+  "children":
+  [
+    {
+      "type": "UIImage",
+      "class": "DialogImage",
+      "children": []
+    },
+    {
+      "type": "UIText",
+      "class": "DialogText",
+      "text": "This is some sample dialog text.",
+      "children": []
+    }
+  ]
+}

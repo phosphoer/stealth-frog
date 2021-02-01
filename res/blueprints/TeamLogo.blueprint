@@ -1,0 +1,15 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "thunderexpress.png",
+      "zdepth": 5,
+      "animations":
+      {
+        "Awesome": "thunder-express.json"
+      },
+      "currentAnimation": "Awesome"
+    }
+  }
+}

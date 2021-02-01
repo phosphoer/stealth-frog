@@ -1,0 +1,11 @@
+{
+  "type": "UIWindow",
+  "id": "HUD",
+  "children":
+  [
+    {"type": "UIImage", "class": "HUDElement", "id": "FireflyImage", "imageURL": "firefly.png"},
+    {"type": "UIText", "class": "HUDElement", "id": "FireflyCounter", "text": "0"},
+    {"type": "UIImage", "class": "HUDElement", "id": "CageImage", "imageURL": "caged-frog.png"},
+    {"type": "UIText", "class": "HUDElement", "id": "CageCounter", "text": "0"}
+  ]
+}

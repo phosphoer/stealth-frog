@@ -1,0 +1,161 @@
+body
+{
+  background-color : rgb(30, 30, 30);
+}
+
+canvas
+{
+    image-rendering: optimizeSpeed;             // Older versions of FF
+    image-rendering: -moz-crisp-edges;          // FF 6.0+
+    image-rendering: -webkit-optimize-contrast; // Webkit
+                                                //  (Safari now, Chrome soon)
+    image-rendering: optimize-contrast;         // Possible future browsers.
+    -ms-interpolation-mode: nearest-neighbor;   // IE
+}
+
+#editorui
+{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 290px;
+  height: 600px;
+  overflow-y: scroll;
+  background-color: rgb(20, 20, 20);
+  color: rgb(150, 150, 150);
+  font-size: 12px;
+  font-family: "monaco", "monospace";
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  cursor: default;
+}
+
+#editorui #layerui-select
+{
+  background-color: rgb(10, 10, 10);
+  padding: 5px;
+}
+
+#editorui .layerui-select-layer
+{
+  background-color: rgb(40, 40, 40);
+  padding: 5px;
+}
+
+#editorui .layerui-select-layer:hover
+{
+  background-color: rgb(60, 60, 60);
+}
+
+.editorui-button
+{
+  padding: 5px;
+  background-color: rgb(10, 10, 10);
+  display: block;
+}
+
+.editorui-button:hover
+{
+  background-color: rgb(50, 50, 50);
+}
+
+#editorui .editorui-button:active
+{
+  background-color: rgb(80, 80, 80);
+}
+
+.editorui-input
+{
+  background-color: rgb(50, 50, 50);
+  border-color: rgba(0, 0, 0, 0);
+  color: rgb(150, 150, 150);
+  padding: 5px;
+}
+
+.editorui-padding
+{
+  padding: 5px;
+}
+
+#editorui #tileui, #collisionui
+{
+  padding: 5px;
+}
+
+#editorui .editorui-selectbox
+{
+  display: block;
+  padding-top: 5px;
+}
+
+#editorui .editorui-clipcontainer
+{
+  float: left;
+  overflow: hidden;
+}
+
+#editorui #tileui-select-left, #collisionui-select-left
+{
+  border: 1px solid rgb(150, 150, 255);
+}
+
+#editorui #tileui-select-right, #collisionui-select-right
+{
+  border: 1px solid rgb(150, 255, 150);
+}
+
+#editorui #objectui-objects
+{
+  display: block;
+  width: 100%;
+  height: 150px;
+  overflow: scroll;
+  padding: 10px;
+}
+
+#editorui .objectui-object
+{
+  display: block;
+  padding: 5px;
+}
+
+#editorui .objectui-object-selected
+{
+  display: block;
+  padding: 5px;
+  border: 2px solid rgb(200, 200, 200);
+}
+
+#editorui .panel-active
+{
+  display: block;
+  background-color: rgb(40, 40, 40);
+}
+
+#editorui .panel-inactive
+{
+  display: block;
+  background-color: rgb(20, 20, 20);
+}
+
+#editorui .propui-component
+{
+  background-color: rgb(60, 60, 60);
+}
+
+#outlineui
+{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 290px;
+  height: 600px;
+  overflow-y: scroll;
+  background-color: rgb(20, 20, 20);
+  color: rgb(150, 150, 150);
+  font-size: 12px;
+  font-family: "monaco", "monospace";
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  cursor: default;
+}

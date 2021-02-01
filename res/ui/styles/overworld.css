@@ -1,0 +1,31 @@
+@font-face { font-family: "StealthFrog"; src: url("../../fonts/04B03.ttf");}
+
+#LevelInfo
+{
+  position: absolute;
+}
+
+.LevelInfoText
+{
+  font-family: "StealthFrog";
+  font-size: 16px;
+  color: rgb(200, 200, 200);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  cursor: default;
+}
+
+.LevelInfoSubText
+{
+  font-family: "StealthFrog";
+  font-size: 10px;
+  color: rgb(200, 200, 200);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  cursor: default;
+}
+
+#LevelInfoRequired
+{
+  color: rgb(255, 120, 120);
+}

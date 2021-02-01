@@ -1,0 +1,83 @@
+@font-face { font-family: "StealthFrog"; src: url("../../fonts/04B03.ttf");}
+
+#MainScreen, #Credits
+{
+  width: 100%;
+  height: 100%;
+}
+
+#TitleWindow
+{
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+.Title
+{
+  font-family: "StealthFrog";
+  position: relative;
+  font-size: 36px;
+  text-align: right;
+  color: rgb(200, 200, 200);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  cursor: default;
+}
+
+#MainMenu
+{
+  position: absolute;
+  left: 10px;
+  top: 100px;
+}
+
+#CreditsContainer
+{
+  position: absolute;
+  left: 170px;
+  top: 85px;
+}
+
+#Professors
+{
+  position: absolute;
+  left: 10px;
+  top: 85px;
+}
+
+#Copyright
+{
+  position: absolute;
+  left: 10px;
+  top: 170px;
+  font-family: "StealthFrog";
+  font-size: 8px;
+  color: rgb(200, 200, 200);
+}
+
+.MenuOption
+{
+  font-family: "StealthFrog";
+  position: relative;
+  color: rgb(200, 200, 200);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  cursor: default;
+}
+
+.CreditsItem
+{
+  font-family: "StealthFrog";
+  font-size: 12px;
+  position: relative;
+  color: rgb(200, 200, 200);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  cursor: default;
+}
+
+.MenuOption:hover
+{
+  color: rgb(100, 200, 100);
+}

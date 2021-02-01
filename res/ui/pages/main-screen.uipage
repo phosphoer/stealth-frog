@@ -1,0 +1,26 @@
+{
+  "type": "UIWindow",
+  "id": "MainScreen",
+  "children":
+  [
+    {
+      "type": "UIWindow",
+      "id": "TitleWindow",
+      "children":
+      [
+        {"type": "UIText", "class": "Title", "text": "Stealth"},
+        {"type": "UIText", "class": "Title", "text": "Frog"}
+      ]
+    },
+    {
+      "type": "UIWindow",
+      "id": "MainMenu",
+      "children":
+      [
+        {"type": "UIText", "class": "MenuOption", "id":"OptionStart", "text": "Start"},
+        {"type": "UIText", "class": "MenuOption", "id":"OptionContinue", "text": "Continue"},
+        {"type": "UIText", "class": "MenuOption", "id":"OptionCredits", "text": "Credits"}
+      ]
+    }
+  ]
+}

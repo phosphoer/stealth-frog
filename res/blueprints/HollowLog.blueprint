@@ -1,0 +1,19 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "hollow-log.png"
+    },
+    "LevelGoal":
+    {
+    },
+    "TileCollider":
+    {
+      "width": 32,
+      "height": 16
+    }
+  },
+
+  "thumb": "hollow-log.png"
+}

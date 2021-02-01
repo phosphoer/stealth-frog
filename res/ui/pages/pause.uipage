@@ -1,0 +1,18 @@
+{
+  "type": "UIWindow",
+  "id": "PauseMenu",
+  "children":
+  [
+    {
+      "type": "UIWindow",
+      "id": "PauseMenuWrapper",
+      "children":
+      [
+        {"type": "UIText", "class": "PauseMenuText", "id": "PauseMenuTitle", "text": "Paused"},
+        {"type": "UIText", "class": "PauseMenuOption PauseMenuText", "id": "PauseMenuContinue", "text": "Continue"},
+        {"type": "UIText", "class": "PauseMenuOption PauseMenuText", "id": "PauseMenuRestart", "text": "Restart"},
+        {"type": "UIText", "class": "PauseMenuOption PauseMenuText", "id": "PauseMenuExit", "text": "Exit Level"}
+      ]
+    }
+  ]
+}

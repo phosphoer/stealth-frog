@@ -1,0 +1,16 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "jump-bar.png",
+      "zdepth": 30,
+      "offsetX": -9,
+      "animations":
+      {
+        "Jump States": "frog-jump-bar.json"
+      },
+      "currentAnimation": "Jump States"
+    }
+  }
+}

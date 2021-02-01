@@ -1,0 +1,17 @@
+{
+  "name": "Vladius",
+
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "vladius.png",
+      "zdepth": 5
+    },
+    "TileCollider":
+    {
+      "width": 20,
+      "height": 21
+    }
+  }
+}

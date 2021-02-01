@@ -1,0 +1,20 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "player.png",
+      "zdepth": 50,
+      "animations":
+      {
+        "Idle": "frog-idle-right.json"
+      },
+      "currentAnimation": "Idle"
+    },
+    "RigidBody":
+    {
+      "gravity": 1000,
+      "friction": 0.95
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "caged-frog.png"
+    },
+    "FrogCage":
+    {
+    },
+    "RigidBody":
+    {
+      "gravity": 1000,
+      "friction": 0.95
+    },
+    "TileCollider":
+    {
+      "width": 24,
+      "height": 24
+    },
+    "AudioEmitter":
+    {
+      "soundBank":
+      {
+        "Pickup":
+        {
+          "sounds": ["Frog Get"]
+        }
+      }
+    },
+    "ParticleEmitter":
+    {
+      "imageURL": "help.png",
+      "zdepth": 2,
+      "loop": true,
+      "maxParticles": 10,
+      "spawnPerSecond": 0.3,
+      "spawnOffsetX": 0,
+      "spawnOffsetY": 0,
+      "spawnOffsetXSpread": 0,
+      "spawnOffsetYSpread": 0,
+      "spawnDirection": -1.57,
+      "spawnDirectionSpread": 0.8,
+      "spawnSpeed": 10,
+      "spawnSpeedSpread": 1,
+      "speedDecay": 0.98,
+      "speedDecaySpread": 0.0,
+      "alphaKeys": [{"time": 0, "val": 1}, {"time": 0.7, "val": 0.9}, {"time": 1, "val": 0}],
+      "particleLife": 1.2,
+      "particleLifeSpread": 0.2
+    }
+  },
+
+  "thumb": "caged-frog.png"
+}

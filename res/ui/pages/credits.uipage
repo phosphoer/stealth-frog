@@ -1,0 +1,46 @@
+{
+  "type": "UIWindow",
+  "id": "Credits",
+  "children":
+  [
+    {
+      "type": "UIWindow",
+      "id": "TitleWindow",
+      "children":
+      [
+        {"type": "UIText", "class": "Title", "text": "Stealth"},
+        {"type": "UIText", "class": "Title", "text": "Frog"}
+      ]
+    },
+    {
+      "type": "UIWindow",
+      "id": "CreditsContainer",
+      "children":
+      [
+        {"type": "UIText", "class": "CreditsItem", "text": "by"},
+        {"type": "UIText", "class": "CreditsItem", "text": "Ryan Rohrer"},
+        {"type": "UIText", "class": "CreditsItem", "text": "David Evans"},
+        {"type": "UIText", "class": "CreditsItem", "text": "Grant Wynn"}
+      ]
+    },
+    {
+      "type": "UIWindow",
+      "id": "Professors",
+      "children":
+      [
+        {"type": "UIText", "class": "CreditsItem", "text": "Game Director"},
+        {"type": "UIText", "class": "CreditsItem", "text": " - Jen Sward"},
+        {"type": "UIText", "class": "CreditsItem", "text": "DigiPen Director"},
+        {"type": "UIText", "class": "CreditsItem", "text": " - Claude Comair"}
+      ]
+    },
+    {
+      "type": "UIWindow",
+      "id": "Copyright",
+      "children":
+      [
+        {"type": "UIText", "text": "All content &copy; 2013 DigiPen (USA) Corporation, all rights reserved."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "overworld-level.png",
+      "zdepth": 1
+    }
+  },
+
+  "thumb": "overworld-level.png"
+}

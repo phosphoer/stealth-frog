@@ -1,0 +1,27 @@
+{
+  "components":
+  {
+    "ParticleEmitter":
+    {
+      "imageURL": "water-drop.png",
+      "zdepth": 2,
+      "loop": false,
+      "maxParticles": 50,
+      "spawnPerSecond": 400,
+      "spawnOffsetX": 0,
+      "spawnOffsetY": 0,
+      "spawnOffsetXSpread": 5,
+      "spawnOffsetYSpread": 1,
+      "spawnDirection": -1.57,
+      "spawnDirectionSpread": 1,
+      "spawnSpeed": 60,
+      "spawnSpeedSpread": 15,
+      "speedDecay": 0.98,
+      "speedDecaySpread": 0.0,
+      "alphaKeys": [{"time": 0, "val": 1}, {"time": 0.9, "val": 0.9}, {"time": 1, "val": 0}],
+      "particleLife": 1,
+      "particleLifeSpread": 0.1,
+      "forceY": 1
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "frog-hut.png",
+      "zdepth": -5
+    }
+  },
+
+  "thumb": "frog-hut.png"
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Player",
+
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "player.png",
+      "zdepth": 5,
+      "animations":
+      {
+        "Idle Right": "frog-idle-right.json",
+        "Jump Right": "frog-jump-right.json",
+        "Slide Right": "frog-slide-right.json",
+        "Hang Right": "frog-hang-right.json",
+        "Hang Jump Right": "frog-hang-jump-right.json",
+        "Idle Left": "frog-idle-left.json",
+        "Jump Left": "frog-jump-left.json",
+        "Slide Left": "frog-slide-left.json",
+        "Hang Left": "frog-hang-left.json",
+        "Hang Jump Left": "frog-hang-jump-left.json"
+      },
+      "currentAnimation": "Idle Right"
+    },
+    "PlayerController":
+    {
+    },
+    "RigidBody":
+    {
+      "gravity": 1000,
+      "friction": 0.95
+    },
+    "TileCollider":
+    {
+      "width": 20,
+      "height": 16
+    },
+    "ParticleEmitter":
+    {
+      "imageURL": "bubble.png",
+      "zdepth": 2,
+      "loop": true,
+      "maxParticles": 20,
+      "spawnPerSecond": 3,
+      "spawnOffsetX": 0,
+      "spawnOffsetY": 0,
+      "spawnOffsetXSpread": 5,
+      "spawnOffsetYSpread": 5,
+      "spawnDirection": -1.57,
+      "spawnDirectionSpread": 0.5,
+      "spawnSpeed": 3,
+      "spawnSpeedSpread": 1,
+      "speedDecay": 1.01,
+      "speedDecaySpread": 0.0,
+      "alphaKeys": [{"time": 0, "val": 1}, {"time": 0.9, "val": 0.9}, {"time": 1, "val": 0}],
+      "particleLife": 5,
+      "particleLifeSpread": 0.5
+    },
+    "FrogPhysics":
+    {
+      "slideVelocityFriction": 0.4,
+      "ceilingGripTime": 1
+    },
+    "Light":
+    {
+      "radius": 80,
+      "numRays": 50
+    },
+    "AudioEmitter":
+    {
+      "soundBank":
+      {
+        "Jump Low":
+        {
+          "sounds": ["Jump2"]
+        },
+        "Jump High":
+        {
+          "sounds": ["Jump1"]
+        },
+        "Swim":
+        {
+          "sounds": ["Swim"]
+        },
+        "Splash":
+        {
+          "sounds": ["Splash"]
+        },
+        "Frog Get":
+        {
+          "sounds": ["Frog Get"]
+        }
+      }
+    }
+  },
+
+  "thumb": "player-thumb.png"
+}

@@ -1,0 +1,9 @@
+{
+  "imageURL": "player.png",
+  "frameWidth": 25,
+  "frameHeight": 16,
+  "frames":
+  [
+    {"frame": 8, "duration": 1}
+  ]
+}

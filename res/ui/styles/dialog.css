@@ -1,0 +1,31 @@
+@font-face { font-family: "StealthFrog"; src: url("../../fonts/04B03.ttf");}
+
+.Dialog
+{
+  position: absolute;
+  background-color: rgba(200, 200, 180, 0.6);
+  border-color: rgba(220, 220, 220, 0.6);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 1px;
+  padding: 5px;
+  width: 50%;
+}
+
+.DialogImage
+{
+  position: relative;
+  float: left;
+  margin: 5px;
+}
+
+.DialogText
+{
+  position: relative;
+  font-family: "StealthFrog";
+  font-size: 8px;
+  color: rgb(30, 30, 30);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  cursor: default;
+}

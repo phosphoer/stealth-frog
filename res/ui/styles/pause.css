@@ -1,0 +1,37 @@
+@font-face { font-family: "StealthFrog"; src: url("../../fonts/04B03.ttf");}
+
+.PauseMenuText
+{
+  font-family: "StealthFrog";
+  font-size: 16px;
+  color: rgb(200, 200, 200);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  cursor: default;
+}
+
+.PauseMenuOption:hover
+{
+  color: rgb(100, 200, 100);
+}
+
+#PauseMenuWrapper
+{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#PauseMenu
+{
+  margin: auto;
+  text-align: center;
+  z-index: 1000;
+  position: relative;
+  height: 100%;
+  display: table;
+}
+
+#PauseMenuTitle
+{
+  font-size: 20px;
+}
